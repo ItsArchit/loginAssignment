@@ -1,0 +1,17 @@
+name=input("Register Name: ")
+passw=input("Select Pass: ")
+list=[name,passw]
+print("User Registered!")
+name2=input("Enter ID:")
+passw2=input("Enter pass:")
+list2=[name2,passw2]
+if list==list2:
+  print("Login successful!")
+  print("Welcome",name)
+  doj=input("Enter the Date of Journey:")
+  trfrom=input("Travelling from: ")
+  trto=input("Travelling to: ")
+  dict={'Name':name,'Date of journey':doj,'From':trfrom,'To':trto}
+  print(dict)
+else:
+  print("invalid loign!")
